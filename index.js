@@ -27,5 +27,5 @@ function greet(input) {
 /* Write your implementation of displayMessage() */
 function displayMessage(message){
   let target = document.getElementById('greeting');
-  target.textContent = message;
+  target.innerText = message;
 }
